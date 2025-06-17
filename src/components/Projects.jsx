@@ -138,7 +138,7 @@ export default function Projects() {
          <Button
   onClick={() => setShowMore(!showMore)}
   style={{
-    borderColor: '#d8b4fe',
+    borderColor: '#8F00FF',
     color: '#7F00FF',
     backgroundColor: 'transparent',
   }}
