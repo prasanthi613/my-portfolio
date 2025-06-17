@@ -135,13 +135,18 @@ export default function Projects() {
 
         {/* Show More / Show Less Button */}
         <div className="text-center mt-4">
-          <Button
-            variant="outline-primary"
-            className="px-4 py-2 rounded-pill fw-semibold"
-            onClick={() => setShowMore(!showMore)}
-          >
-            {showMore ? 'Show Less' : 'Show More'}
-          </Button>
+         <Button
+  onClick={() => setShowMore(!showMore)}
+  style={{
+    borderColor: '#d8b4fe',
+    color: '#7e22ce',
+    backgroundColor: 'transparent',
+  }}
+  className="px-4 py-2 rounded-pill fw-semibold"
+>
+  {showMore ? 'Show Less' : 'Show More'}
+</Button>
+
         </div>
       </Container>
     </section>
