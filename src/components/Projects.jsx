@@ -139,7 +139,7 @@ export default function Projects() {
   onClick={() => setShowMore(!showMore)}
   style={{
     borderColor: '#d8b4fe',
-    color: '#7e22ce',
+    color: '#7F00FF',
     backgroundColor: 'transparent',
   }}
   className="px-4 py-2 rounded-pill fw-semibold"
